@@ -56,8 +56,6 @@
 }
 
 
-
-
 .all_events_grid{
   height: 19rem;
   flex-basis: 33.33%;
@@ -94,10 +92,6 @@
     perspective(75em)
     rotateX(18deg); 
 }
-
-
-
-
 
 
 .toggler{

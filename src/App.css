@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container{
+  width: 100%;
   min-height: 100vh;
+  max-height: fit-content;
+  background-image: url("./Picture/BG.png");  
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+  
+}
+
+.cards_container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all_cards{
+  height: 16rem;
+  flex-basis: 33.33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.each_card{
+  width: 15rem;
+  height: 15rem;
+  text-decoration: none;
+  background-color: #ffffff77;
+  text-transform: capitalize;
+  color: black;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 150ms ease-in-out;
+  ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.each_card:hover{
+  transform:
+    perspective(75em)
+    rotateX(18deg); 
 }
+
+
+
+
+.all_events_grid{
+  height: 19rem;
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.event_name{
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+.each_event{
+  width: 11rem;
+  height: 11rem;
+  text-decoration: none;
+  background-color: #ffffff77;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 150ms ease-in-out;
+}
+
+.each_event:hover{
+  transform:
+    perspective(75em)
+    rotateX(18deg); 
+}
+
+
+
+
+
+
+.toggler{
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.397);
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.toggler:hover{
+  cursor: pointer;
+}
+

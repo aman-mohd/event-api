@@ -4,7 +4,6 @@
   
   .container{
     width: 100%;   
-    background-image: url("../Picture/BG.png");  
     padding: 2rem 1rem;
     
   }
@@ -29,7 +28,6 @@
   
   .container{
     width: 100%;   
-    background-image: url("../Picture/BG.png");  
     padding: 2rem 1rem;
     
   }
@@ -40,7 +38,7 @@
   }
   .all_events_grid{
     flex-basis: 50%;
-    /* border: 1px solid black; */
+    
   
   }
 
@@ -54,7 +52,6 @@
   
   .container{
     width: 100%;   
-    background-image: url("../Picture/BG.png");  
     padding: 2rem 1rem;
     
   }
@@ -65,7 +62,7 @@
   }
   .all_events_grid{
     flex-basis: 100%;
-    /* border: 1px solid black; */
+    
   
   }
 

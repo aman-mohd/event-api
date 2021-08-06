@@ -2,7 +2,12 @@
   width: 100%;
   min-height: 100vh;
   max-height: fit-content;
-  background-image: url("../Picture/BG.png");
+  background-color: #FA8BFF;
+  background-image: -webkit-linear-gradient(268deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-image: -moz-linear-gradient(268deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-image: -o-linear-gradient(268deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-image: linear-gradient(268deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  
   
   padding: 2rem 1rem;
   display: flex;

@@ -27,3 +27,6 @@ Use the latest CSS framework of your choice.
 Create separate components for menu and event items. Use any router or framework to switch between categories.
 
 Send the code with Instruction to preview or simulate the results (or host somewhere)
+
+
+testing
